@@ -7,14 +7,14 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-public class SecondActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_third);
 
         // load fragment 2 into second activity
-        loadFragment(new SecondFragment(), R.id.fragContainer_second);
+        loadFragment(new ThirdFragment(), R.id.fragContainer_third);
 
     }
 
